@@ -1,0 +1,20 @@
+# Secrets
+api_key*
+.env
+*.key
+
+# Local build artifacts
+__pycache__/
+*.pyc
+video/build/clips/
+video/build/*.mp4
+video/assets/audio/
+video/assets/slides/
+video/assets/charts/
+video/qa/
+
+# OS / editor
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/
